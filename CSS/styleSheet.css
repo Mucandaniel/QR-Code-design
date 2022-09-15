@@ -1,0 +1,63 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+/* desktop section */
+/* QR Section */
+#QR-section {
+  text-align: center;
+}
+
+#QR-section .container-fluid {
+  padding: 10% 0 10% 0;
+}
+
+.card-exterior {
+  margin: auto;
+  width: 375px;
+}
+
+.card-radius {
+  border-radius: 20px;
+}
+
+.QR-image {
+  border-radius: 20px;
+  padding: 5px 0 5px 0;
+}
+
+.paragraph-heading {
+  padding: 10px 30px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.paragraph {
+  padding: 2px 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+/* mobile section */
+@media (max-width: 800px) {
+  #QR-section {
+    text-align: center;
+  }
+
+  .card-exterior {
+    width: 475px;
+  }
+
+  .paragraph-heading {
+    padding: 10px 30px;
+    font-size: 30px;
+  }
+
+  .paragraph {
+    padding: 2px 35px;
+    font-size: 20px;
+
+  }
+}
